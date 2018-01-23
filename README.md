@@ -10,11 +10,15 @@ A simple game class debugger
 
 # Example
 ```Javascript
+// add entries
 debugger.AddClass("ClassNameA", (DWORD)0x1337A);
 debugger.AddClass("ClassNameB", (DWORD)0x1337B);
 debugger.AddClass("ClassNameC", (DWORD)0x1337C);
+
+// update info
 debugger.Update();
 
+// show info
 draw.Text(x, y, debugger.Text(), GreenColor);
 ```
 
